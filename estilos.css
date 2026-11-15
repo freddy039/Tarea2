@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f2f5fa; color: #263449; margin: 0; }
+.contenedor { max-width: 850px; margin: 35px auto; padding: 0 16px; }
+h1 { color: #194b8f; }
+h2 { color: #2459a6; }
+.tarjeta { background: white; border-radius: 10px; padding: 24px; margin: 20px 0; box-shadow: 0 3px 12px #0001; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input { width: 100%; padding: 10px; margin-top: 6px; border: 1px solid #c5ceda; border-radius: 5px; }
+button { background: #2459a6; color: white; padding: 10px 15px; border: 0; border-radius: 5px; cursor: pointer; margin-top: 14px; }
+a { color: #2459a6; margin-left: 10px; }
+.error { color: #ad1b1b; }
+.tabla { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 12px; border-bottom: 1px solid #e1e5eb; text-align: left; }
+.acciones { white-space: nowrap; }
+.acciones form { display: inline; }
+.eliminar { background: #bb3434; margin: 0 0 0 8px; }
